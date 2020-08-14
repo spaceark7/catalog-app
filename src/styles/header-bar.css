@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.line {
+  text-transform: uppercase;
+  font-size: 80px;
+  background: rgb(22, 8, 252);
+  background: linear-gradient(
+    90deg,
+    rgba(22, 8, 252, 1) 0%,
+    rgba(241, 19, 255, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  animation: bounce; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 1s;
+}
+
+.header-img {
+  position: absolute;
+  right: 20px;
+  bottom: 10px;
+  z-index: -1;
+  width: 500px;
+
+  animation: bounce;
+  animation-duration: 1.2s;
+}
+
+.header-subtitle {
+  font-weight: 300 !important;
+  font-size: medium;
+}
+
+.subtitle-box {
+  position: absolute;
+  max-width: 370px;
+  left: 55px;
+  bottom: 50px;
+  z-index: -1;
+  animation: fade;
+  animation-duration: 3s;
+}
+/* @media (max-width: 1200px) {
+  .container {
+    width: 100%;
+    min-height: 100%;
+  }
+  .row {
+    height: 720px;
+  }
+  .col {
+    float: left;
+  }
+  .h2 {
+    font-size: 58px !important;
+    float: left;
+  }
+}
+
+@media (max-width: 992px) {
+  .container {
+    width: 100% !important;
+    margin: 0;
+  }
+  .row {
+    height: fill-parent;
+  }
+  .col {
+    float: left;
+  }
+  .title-text {
+    font-size: xx-large;
+    float: left;
+  }
+  .h2 {
+    font-size: xx-large !important;
+    float: left;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 100% !important;
+    min-height: 100%;
+  }
+  .row {
+    height: 100%;
+  }
+  .col {
+    float: left;
+  }
+  .title-text {
+    font-size: xx-large;
+    float: left;
+  }
+  .h2 {
+    font-size: xx-large !important;
+    float: left;
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    width: 100% !important;
+    min-height: 576px;
+  }
+  .row {
+    min-height: 576px;
+  }
+  .col {
+    float: left;
+  }
+  .title-text {
+    font-size: xx-large;
+    float: left;
+  }
+}
+
+@media (max-width: 360px) {
+  .container {
+    width: 100%;
+    min-height: 640px;
+  }
+  .row {
+    min-height: 640px;
+  }
+  .col {
+    float: left;
+  }
+  .h2 {
+    font-size: xx-large !important;
+    float: left;
+  }
+} */
