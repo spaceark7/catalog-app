@@ -4,7 +4,7 @@
   font-family: "Montserrat", sans-serif;
 }
 
-.container {
+.hero {
   height: 100vh;
   display: flex;
   align-items: center;
@@ -21,10 +21,18 @@
     rgba(0, 212, 255, 1) 100%
   );
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 
   animation: bounce; /* referring directly to the animation's @keyframe declaration */
   animation-duration: 1s;
+}
+
+.scroll-down {
+  background: aqua;
+  position: absolute;
+  left: 50%;
+  bottom: 5%;
 }
 
 .header-img {
@@ -52,6 +60,117 @@
   animation: fade;
   animation-duration: 3s;
 }
+/* @media (min-width: 360px) {
+  .line {
+    font-size: 43px;
+    margin-left: 30px;
+  }
+  .header-subtitle {
+    font-size: smaller;
+    max-width: 270px;
+  }
+  .header-img {
+    width: 280px;
+    bottom: 75px;
+  }
+} */
+
+@media (min-width: 300px) {
+  .line {
+    font-size: 30px;
+  }
+  .subtitle-box {
+    left: 20px;
+    font-size: x-small;
+    max-width: 90%;
+    bottom: 200px;
+  }
+  .header-subtitle {
+    font-size: small;
+  }
+  .header-img {
+    width: 280px;
+    bottom: 60px;
+    right: 15%;
+    animation-duration: 3s;
+  }
+  .header {
+    margin-bottom: 200px;
+  }
+}
+@media (min-width: 568px) {
+  .line {
+    font-size: 45px;
+    margin-left: 10px;
+  }
+  .subtitle-box {
+    left: 5%;
+    font-size: medium;
+    max-width: 40%;
+    bottom: 5%;
+  }
+  .header-subtitle {
+    font-size: medium;
+  }
+  .header-img {
+    width: 49%;
+    bottom: 25%;
+    right: 5%;
+    animation-duration: 3s;
+  }
+  .header {
+    margin-bottom: 200px;
+  }
+}
+@media (min-width: 768px) {
+  .line {
+    font-size: 50px;
+    margin-left: 0%;
+  }
+  .subtitle-box {
+    left: 7%;
+    font-size: medium;
+    max-width: 40%;
+    bottom: 20%;
+  }
+  .header-subtitle {
+    font-size: medium;
+  }
+  .header-img {
+    width: 49%;
+    bottom: 25%;
+    right: 5%;
+    animation-duration: 3s;
+  }
+  .header {
+    margin-bottom: 200px;
+  }
+}
+
+@media (min-width: 992px) {
+  .line {
+    font-size: 70px;
+  }
+  .subtitle-box {
+    left: 7%;
+    font-size: large;
+    max-width: 40%;
+    bottom: 10%;
+  }
+  .header-subtitle {
+    font-size: large;
+  }
+  .header-img {
+    width: 49%;
+    bottom: 10%;
+    right: 5%;
+    animation-duration: 3s;
+  }
+  .header {
+    margin-bottom: 200px;
+  }
+}
+
 /* @media (max-width: 1200px) {
   .container {
     width: 100%;

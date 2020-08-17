@@ -1,0 +1,74 @@
+.project {
+  height: 500px;
+}
+.container-fluid {
+  background-color: #1d1d1d;
+}
+.vertical {
+  margin-top: 40px;
+  border-left: 1px solid #fff;
+  height: 80px;
+  position: absolute;
+  left: 50%;
+}
+p {
+  color: white;
+  position: absolute;
+  width: 500px;
+  font-size: large;
+  margin-top: 30%;
+}
+.project1 {
+  background: url(https://images.unsplash.com/photo-1540349220179-09d3866f2e74?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2600&q=80)
+    no-repeat 50% 50%;
+  background-size: cover;
+}
+.project1::after {
+  content: "Timeless flow.";
+  font-family: "Montserrat";
+  font-size: 36px;
+  position: relative;
+  color: #fff;
+  display: block;
+  top: 8%;
+  left: -60%;
+  right: 0;
+  bottom: 0;
+}
+.project2 {
+  background: url(https://images.unsplash.com/photo-1482501157762-56897a411e05?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80)
+    no-repeat 50% 50%;
+  background-size: cover;
+}
+
+.project2::after {
+  content: "Foretime.";
+  font-family: "Roboto Mono";
+  font-size: 36px;
+  position: relative;
+  color: #fff;
+  display: block;
+  top: 80%;
+  left: 90%;
+  right: 0;
+  bottom: 0;
+}
+
+.project3 {
+  background: url(https://images.unsplash.com/photo-1482501157762-56897a411e05?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80)
+    no-repeat 50% 50%;
+  background-size: cover;
+}
+
+.project3::after {
+  content: "Never again.";
+  font-family: "Roboto Mono";
+  font-size: 36px;
+  position: relative;
+  color: #fff;
+  display: block;
+  top: 80%;
+  left: -50%;
+  right: 0;
+  bottom: 0;
+}

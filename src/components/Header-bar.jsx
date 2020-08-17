@@ -5,6 +5,10 @@ import "./Nav-bar";
 import NavBar from "./Nav-bar";
 import "animate.css";
 import Di from "../image/DI4.png";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
+AOS.init();
 
 const HeaderBar = () => {
   return (
@@ -25,6 +29,9 @@ const HeaderBar = () => {
             </p>
           </div>
         </div>
+        {/* <div data-aos="fade-up" className="scroll-down">
+          Scroll Me
+        </div> */}
       </div>
     </div>
 
