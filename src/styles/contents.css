@@ -2,61 +2,85 @@
   height: 500px;
 }
 .container-fluid {
-  background-color: #1d1d1d;
+  background: #12c2e9; /* fallback for old browsers */
+  background: #12c2e9; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to left,
+    #f64f59,
+    #c471ed,
+    #12c2e9
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to left,
+    #f64f59,
+    #c471ed,
+    #12c2e9
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
-.vertical {
-  margin-top: 40px;
-  border-left: 1px solid #fff;
-  height: 80px;
-  position: absolute;
-  left: 50%;
-}
-p {
+
+#trigger-1 h1 {
   color: white;
-  position: absolute;
-  width: 500px;
-  font-size: large;
-  margin-top: 30%;
+  text-transform: uppercase;
+  padding-top: 5%;
 }
+
 .project1 {
-  background: url(https://images.unsplash.com/photo-1540349220179-09d3866f2e74?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2600&q=80)
-    no-repeat 50% 50%;
+  /* border-radius: 5%; */
+  background: url("../image/3392211.jpg") no-repeat 20% 80%;
   background-size: cover;
 }
 .project1::after {
-  content: "Timeless flow.";
+  content: "Media Sosial";
   font-family: "Montserrat";
   font-size: 36px;
+  text-transform: uppercase;
+
   position: relative;
-  color: #fff;
+  color: white;
   display: block;
   top: 8%;
   left: -60%;
   right: 0;
   bottom: 0;
 }
+.content-text1 {
+  color: white;
+  position: absolute;
+  font-size: large;
+  width: 50%;
+  margin-top: 10%;
+  left: 7%;
+  font-weight: 200;
+  text-align: right;
+}
 .project2 {
-  background: url(https://images.unsplash.com/photo-1482501157762-56897a411e05?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80)
-    no-repeat 50% 50%;
+  background: url("../image/18695.jpg") no-repeat 50% 50%;
   background-size: cover;
 }
 
 .project2::after {
-  content: "Foretime.";
-  font-family: "Roboto Mono";
+  content: "Desain Iklan";
+  font-family: "Montserrat";
   font-size: 36px;
   position: relative;
   color: #fff;
   display: block;
-  top: 80%;
+  top: 10%;
   left: 90%;
   right: 0;
   bottom: 0;
 }
+.content-text2 {
+  color: white;
+  position: relative;
+  width: 80%;
+  font-size: large;
+  margin-top: 25%;
+  font-weight: 200;
+}
 
 .project3 {
-  background: url(https://images.unsplash.com/photo-1482501157762-56897a411e05?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80)
-    no-repeat 50% 50%;
+  background: url(../image/media-ads.png) no-repeat 50% 50%;
   background-size: cover;
 }
 
@@ -68,7 +92,15 @@ p {
   color: #fff;
   display: block;
   top: 80%;
-  left: -50%;
+  left: -60%;
   right: 0;
-  bottom: 0;
+  bottom: 10%;
+}
+.content-text3 {
+  color: white;
+  position: absolute;
+  width: 500px;
+  font-size: large;
+  margin-top: 5%;
+  font-weight: 200;
 }
