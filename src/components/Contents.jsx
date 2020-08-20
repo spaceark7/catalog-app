@@ -36,7 +36,7 @@ const Contents = () => {
         <div
           data-aos="fade-left"
           data-aos-anchor="#trigger-1"
-          data-aos-anchor-placement="top-center"
+          data-aos-anchor-placement="top-left"
           className="col-4 project project1"
         ></div>
         <div className="col-1"></div>
@@ -59,7 +59,7 @@ const Contents = () => {
             untuk memasarkan produk tersebut adalah dengan memasang
             <strong>
               iklan yang menarik dan kekinian untuk postingan feed serta story
-              dimedia sosial anda
+              di media sosial anda.
             </strong>{" "}
             Sayangnya sampai saat ini masih banyak pelaku UKM Indonesia yang
             kerap menghindari atau melewatkan iklan begitu saja.
@@ -71,10 +71,16 @@ const Contents = () => {
       <div className="row ">
         <div className="col-7">
           <p data-aos="fade-up-right" className="content-text3">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque optio
-            neque, iure quisquam dolorem similique pariatur quos? A omnis soluta
-            dolor perspiciatis, ullam quidem ipsum. Cupiditate, eveniet commodi.
-            Incidunt, ipsum.
+            Untuk Para pelaku bisnis yang bisnisnya sudah berjalan mungkin perlu
+            meningkatkan branding produknya dengan menggunakan iklan di
+            platform-platform media sosial yang berbayar sehingga jangkauan
+            untuk mengiklankan produknya lebih luas sehingga lebih banyak
+            konsumen yang dapat terjaring. Jangan Takut menggunakan Fitur{" "}
+            <strong>
+              iklan berbayar di sosial media (Facebook, Instagram, Youtube, dll)
+              untuk menjangkau lebih banyak calon konsumen, Mulai dari Rp.
+              20.000/Hari.
+            </strong>
           </p>
         </div>
         <div

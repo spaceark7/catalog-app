@@ -10,24 +10,25 @@
     #c471ed,
     #12c2e9
   ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to left,
-    #f64f59,
-    #c471ed,
-    #12c2e9
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to left, #f64f59, #c471ed, #12c2e9);
+  margin: 0;
+  padding: 0; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  overflow: hidden;
 }
 
 #trigger-1 h1 {
   color: white;
   text-transform: uppercase;
   padding-top: 5%;
+  padding: 50px;
 }
 
 .project1 {
   /* border-radius: 5%; */
   background: url("../image/3392211.jpg") no-repeat 20% 80%;
   background-size: cover;
+  padding: 0;
+  margin: 0;
 }
 .project1::after {
   content: "Media Sosial";
@@ -56,10 +57,12 @@
 .project2 {
   background: url("../image/18695.jpg") no-repeat 50% 50%;
   background-size: cover;
+  padding: 0;
+  margin: 0;
 }
 
 .project2::after {
-  content: "Desain Iklan";
+  content: "Buat Semenarik Mungkin";
   font-family: "Montserrat";
   font-size: 36px;
   position: relative;
@@ -80,27 +83,189 @@
 }
 
 .project3 {
-  background: url(../image/media-ads.png) no-repeat 50% 50%;
+  background: url(../image/517072-PIXH8C-541.jpg) no-repeat 20% 80%;
   background-size: cover;
+  padding: 0;
+  margin: 0;
 }
 
 .project3::after {
-  content: "Never again.";
-  font-family: "Roboto Mono";
+  content: "Jangkau Lebih Banyak";
+  font-family: "Montserrat";
   font-size: 36px;
   position: relative;
   color: #fff;
   display: block;
-  top: 80%;
+  top: 72%;
   left: -60%;
   right: 0;
   bottom: 10%;
+  text-transform: uppercase;
 }
 .content-text3 {
   color: white;
   position: absolute;
-  width: 500px;
   font-size: large;
+  width: 50%;
   margin-top: 5%;
+  left: 7%;
   font-weight: 200;
+  text-align: right;
+}
+
+@media (min-width: 300px) {
+  #trigger-1 h1 {
+    font-size: x-large;
+  }
+  .project {
+    height: 300px;
+  }
+  .content-text1 {
+    font-size: 0.7em;
+    margin-top: 0%;
+    width: 50%;
+  }
+  .project1::after {
+    font-size: medium;
+    top: -15%;
+  }
+  .content-text2 {
+    font-size: 0.7em;
+    margin-top: 0%;
+    width: 100%;
+  }
+  .project2::after {
+    font-size: medium;
+    top: -15%;
+    left: 35%;
+  }
+
+  .content-text3 {
+    font-size: 0.7em;
+    margin-top: 5%;
+    width: 50%;
+  }
+  .project3::after {
+    font-size: medium;
+    top: -20%;
+  }
+}
+
+@media (min-width: 568px) {
+  #trigger-1 h1 {
+    font-size: 40px;
+  }
+  .project {
+    height: 300px;
+  }
+  .content-text1 {
+    font-size: 0.9em;
+    margin-top: 0%;
+    width: 57%;
+    left: 0%;
+  }
+  .project1::after {
+    font-size: 25px;
+    top: -15%;
+  }
+  .content-text2 {
+    font-size: 0.9em;
+    margin-top: 0%;
+    width: 100%;
+  }
+  .project2::after {
+    font-size: 25px;
+    top: -25%;
+    left: 35%;
+  }
+
+  .content-text3 {
+    font-size: 0.9em;
+    margin-top: 0;
+    width: 50%;
+  }
+  .project3::after {
+    font-size: 25px;
+    top: -25%;
+  }
+}
+
+@media (min-width: 768px) {
+  #trigger-1 h1 {
+    font-size: 50px;
+  }
+  .project {
+    height: 500px;
+  }
+  .content-text1 {
+    font-size: 1.4em;
+    margin-top: 7%;
+    width: 57%;
+    left: 0%;
+  }
+  .project1::after {
+    font-size: 35px;
+    top: 0%;
+  }
+  .content-text2 {
+    font-size: 1.4em;
+    margin-top: 7%;
+    width: 100%;
+  }
+  .project2::after {
+    font-size: 35px;
+    top: -20%;
+    left: 20%;
+  }
+
+  .content-text3 {
+    font-size: 1.4em;
+    margin-top: 0;
+    width: 50%;
+  }
+  .project3::after {
+    font-size: 35px;
+    top: -20%;
+    left: -5%;
+  }
+}
+
+@media (min-width: 992px) {
+  #trigger-1 h1 {
+    font-size: 70px;
+  }
+  .project {
+    height: 500px;
+  }
+  .content-text1 {
+    font-size: 1.4em;
+    margin-top: 10%;
+    width: 57%;
+    left: 0%;
+  }
+  .project1::after {
+    font-size: 50px;
+    top: 0%;
+  }
+  .content-text2 {
+    font-size: 1.4em;
+    margin-top: 7%;
+    width: 100%;
+  }
+  .project2::after {
+    font-size: 50px;
+    top: -15%;
+    left: 20%;
+  }
+
+  .content-text3 {
+    font-size: 1.4em;
+    margin-top: 7%;
+    width: 50%;
+  }
+  .project3::after {
+    font-size: 50px;
+    top: -20%;
+    left: -50%;
+  }
 }
