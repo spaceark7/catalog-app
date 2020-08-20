@@ -5,6 +5,7 @@ import "./components/Header-bar";
 import HeaderBar from "./components/Header-bar";
 import NavBar from "./components/Nav-bar";
 import Contents from "./components/Contents";
+import Projects from "./components/Projects";
 function App() {
   return (
     <div className="App">
@@ -13,7 +14,7 @@ function App() {
 
       <HeaderBar />
       <Contents />
-
+      <Projects />
       {/* // <HeaderBar />
       // Content
       

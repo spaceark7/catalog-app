@@ -41,7 +41,9 @@ const Contents = () => {
         ></div>
         <div className="col-1"></div>
       </div>
-      <div style={{ height: 150 }}></div>
+      <div style={{ height: 150 }}>
+        <div id="scroll-1"></div>
+      </div>
       <div id="trigger-2"></div>
 
       <div className="row ">
@@ -66,7 +68,10 @@ const Contents = () => {
           </p>
         </div>
       </div>
-      <div style={{ height: 150 }}></div>
+      <div style={{ height: 150 }}>
+        <div id="scroll-2"></div>
+      </div>
+
       <div id="trigger-3"></div>
       <div className="row ">
         <div className="col-7">
@@ -93,6 +98,7 @@ const Contents = () => {
 
         <div style={{ height: 150 }}></div>
         <div id="trigger-3"></div>
+
         <div className="col-1"></div>
       </div>
       <div className="row"></div>

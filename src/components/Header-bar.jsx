@@ -29,9 +29,7 @@ const HeaderBar = () => {
             </p>
           </div>
         </div>
-        {/* <div data-aos="fade-up" className="scroll-down">
-          Scroll Me
-        </div> */}
+        <div className="scroll-down"></div>
       </div>
     </div>
 
