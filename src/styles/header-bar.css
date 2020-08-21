@@ -93,6 +93,7 @@
   z-index: -1;
   animation: fade;
   animation-duration: 3s;
+  color: #000;
 }
 /* @media (min-width: 360px) {
   .line {
