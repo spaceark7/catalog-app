@@ -8,11 +8,16 @@ const TeamMember = () => {
   return (
     <div className="wrapper">
       <div className="team-header">
-        <h2>Tim Kami</h2>
+        <h2> Tim Kami</h2>
       </div>
       <div id="team-container" className="container-fluid">
         <div className="row team-container">
-          <div className="member col-md-4">
+          <div
+            data-aos="flip-right"
+            data-aos-duration="700"
+            data-aos-delay="300"
+            className="member col-md-4"
+          >
             <figure className="item-container">
               <img id="dadan" className="member-img" src={dadan} alt="" />
               <figcaption className="member-caption">
@@ -36,7 +41,12 @@ const TeamMember = () => {
               </figcaption>
             </figure>
           </div>
-          <div className="member col-md-4">
+          <div
+            data-aos="flip-right"
+            data-aos-duration="800"
+            data-aos-delay="500"
+            className="member col-md-4"
+          >
             <figure className="item-container">
               <img className="member-img" src={hasbi} alt="" />
               <figcaption className="member-caption">
@@ -61,7 +71,12 @@ const TeamMember = () => {
               </figcaption>
             </figure>
           </div>
-          <div className="member col-md-4">
+          <div
+            data-aos="flip-right"
+            data-aos-duration="800"
+            data-aos-delay="700"
+            className="member col-md-4"
+          >
             <figure className="item-container">
               <div>
                 <img className="member-img" src={emyus} alt="" />

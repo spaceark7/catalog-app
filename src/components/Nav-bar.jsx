@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import "../styles/nav-bar.css";
 
 const NavBar = () => {
-  const menu = ["Home", "Service", "About", "Contact"];
+  const menu = [".Home", ".Why?", ".Projects", ".Contact"];
   const item = menu.map((arr) => (
     <li key={arr.toString()}>
       <a href={"#" + arr}></a>
