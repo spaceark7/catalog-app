@@ -3,8 +3,16 @@ import "bootstrap/dist/css/bootstrap.css";
 import "../styles/team-member.css";
 import image from "../image/3380861.jpg";
 import { hasbi, dadan, emyus } from "../image/profile/image";
-
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faFacebookF,
+  faInstagram,
+  faFacebookSquare,
+  faInstagramSquare,
+} from "@fortawesome/free-brands-svg-icons";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 const TeamMember = () => {
+  console.log("Here: ", faFacebookSquare);
   return (
     <div className="wrapper">
       <div className="team-header">
@@ -29,13 +37,19 @@ const TeamMember = () => {
                 </p>
                 <div className="member-contact">
                   <span>
-                    <a href=""></a>
+                    <a href="">
+                      <FontAwesomeIcon icon={faInstagram} size="2x" />
+                    </a>
                   </span>
                   <span>
-                    <a href=""></a>
+                    <a href="">
+                      <FontAwesomeIcon icon={faFacebookF} size="2x" />
+                    </a>
                   </span>
                   <span>
-                    <a href=""></a>
+                    <a href="">
+                      <FontAwesomeIcon icon={faEnvelope} size="2x" />
+                    </a>
                   </span>
                 </div>
               </figcaption>
@@ -59,13 +73,19 @@ const TeamMember = () => {
                 </p>
                 <div className="member-contact">
                   <span>
-                    <a href=""></a>
+                    <a href="">
+                      <FontAwesomeIcon icon={faInstagram} size="2x" />
+                    </a>
                   </span>
                   <span>
-                    <a href=""></a>
+                    <a href="">
+                      <FontAwesomeIcon icon={faFacebookF} size="2x" />
+                    </a>
                   </span>
                   <span>
-                    <a href=""></a>
+                    <a href="">
+                      <FontAwesomeIcon icon={faEnvelope} size="2x" />
+                    </a>
                   </span>
                 </div>
               </figcaption>
@@ -89,13 +109,31 @@ const TeamMember = () => {
                   </p>
                   <div className="member-contact">
                     <span>
-                      <a href=""></a>
+                      <a href="">
+                        <FontAwesomeIcon
+                          className="contact-icon"
+                          icon={faInstagram}
+                          size="2x"
+                        />
+                      </a>
                     </span>
                     <span>
-                      <a href=""></a>
+                      <a href="">
+                        <FontAwesomeIcon
+                          className="contact-icon"
+                          icon={faFacebookF}
+                          size="2x"
+                        />
+                      </a>
                     </span>
                     <span>
-                      <a href=""></a>
+                      <a href="">
+                        <FontAwesomeIcon
+                          className="contact-icon"
+                          icon={faEnvelope}
+                          size="2x"
+                        />
+                      </a>
                     </span>
                   </div>
                 </figcaption>

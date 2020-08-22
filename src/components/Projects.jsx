@@ -94,6 +94,22 @@ const Projects = () => {
           </div>
         </div>
       </section>
+      <div className="project-CTA">
+        <h2 className="project-CTA-header">
+          Ayo Jadikan Bisnis Anda Go Digital!
+        </h2>
+        <p className="project-CTA-description">
+          Tunggu apalagi? Bersegera adaptasi Industri Digital 4.0 sekarang juga.
+          <strong>
+            Khusus untuk pelaku bisnis UKM daerah Cipanas - Puncak kami
+            memberikan layanan desain iklan gratis untuk 5 produk anda!
+          </strong>{" "}
+          Mari kita berkembang bersama. #IndonesiaMaju
+        </p>
+        <div className="project-CTA-button">
+          <button>Join Sekarang</button>
+        </div>
+      </div>
     </div>
   );
 };

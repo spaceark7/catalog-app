@@ -8,6 +8,7 @@ import Contents from "./components/Contents";
 import Projects from "./components/Projects";
 import TeamMember from "./components/Team-member";
 function App() {
+  document.title = "Go Digital | Explore Creative";
   return (
     <div className="App">
       {/* // header */}
